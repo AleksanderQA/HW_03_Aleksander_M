@@ -37,7 +37,7 @@ public class Main {
 
 
         Figure figure = new Figure(30.5, 50.6, 80.7);
-        System.out.println(figure.calculateVolume(50.6, 80.7, 30.5));
+        System.out.println(figure.calculateVolume());
 
 
 

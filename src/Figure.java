@@ -14,8 +14,7 @@ public class Figure {
         this.length = length;
     }
 
-    public  double calculateVolume(double width, double length, double height) {
-
+    public  double calculateVolume() {
         return this.length * this.width * this.height;
 
 
