@@ -20,7 +20,7 @@ public class Main {
         // Task 3
         Calculator calculator = new Calculator(); // Создание объекта класса калькулятор
         System.out.println(calculator.addition(5,8));  // Применение метода addition для сложения двух значений
-        System.out.println(calculator.isGreater(5,6)); // Применение метода isGreater для сравнение двух значений
+        System.out.println(calculator.isGreater(9,12)); // Применение метода isGreater для сравнение двух значений
 
         // Task 4
         NumberManipulator numberManipulator = new NumberManipulator(); // создание объекта класса с методами incrementByOne и decrementByOne
