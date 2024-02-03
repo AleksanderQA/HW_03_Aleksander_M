@@ -4,7 +4,7 @@ public class Figure {
     double width;
     double length;
 
-    public Figure() {
+    public Figure() { // не доделал
 
     }
 
