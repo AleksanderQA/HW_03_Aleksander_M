@@ -1,0 +1,24 @@
+public class Figure {
+
+    double height;
+    double width;
+    double length;
+
+    public Figure() {
+
+    }
+
+    public  Figure(double height, double width, double length) {
+        this.height = height;
+        this.width = width;
+        this.length = length;
+    }
+
+    public  double calculateVolume(double width, double length, double height) {
+
+        return this.length * this.width * this.height;
+
+
+    }
+
+}

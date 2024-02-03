@@ -36,6 +36,11 @@ public class Main {
         System.out.println("Number after decrement: " + decrementedNumber); // // вывод текстом + результат полученный при вызове метода
 
 
+        Figure figure = new Figure(30.5, 50.6, 80.7);
+        System.out.println(figure.calculateVolume(50.6, 80.7, 30.5));
+
+
+
 
 
     }
