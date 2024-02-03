@@ -13,7 +13,7 @@ public class Main {
 
         myNewCar.brand = "Kia";
         myNewCar.year = 2018;
-        myNewCar.model = "Sorento";
+        myNewCar.model = "Sorento"; // 1234
 
         System.out.println(myNewCar.brand +" "+ myNewCar.model +" "+ myNewCar.year);
 
