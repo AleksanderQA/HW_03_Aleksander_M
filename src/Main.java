@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
 
-
         /* Task 1
          Git установлен git version 2.43.0.windows.1*/
 
@@ -35,13 +34,12 @@ public class Main {
         int decrementedNumber = numberManipulator.decrementByOne(number); // Вызывается метод incrementByOne() объекта numberManipulator, передавая ему текущее значение number--
         System.out.println("Number after decrement: " + decrementedNumber); // // вывод текстом + результат полученный при вызове метода
 
+        // 4 Homework
+        Figure figure = new Figure(2.0, 3.0, 4.0); // возвращаемые данные в метод
+        System.out.println("Calculating value: " +  figure.calculateVolume()); // метод
 
-        Figure figure = new Figure(30.5, 50.6, 80.7);
-        System.out.println(figure.calculateVolume());
-
-
-
-
+        Figure figure1 = new Figure(1.0, 2.0,3.0);
+        figure1.Formula();
 
     }
 }
