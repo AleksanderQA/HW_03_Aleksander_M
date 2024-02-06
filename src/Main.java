@@ -12,7 +12,7 @@ public class Main {
 
         myNewCar.brand = "Kia";
         myNewCar.year = 2018;
-        myNewCar.model = "Sorento";        // 1234
+        myNewCar.model = "Sorento";        
 
         System.out.println(myNewCar.brand +" "+ myNewCar.model +" "+ myNewCar.year);
 
@@ -28,12 +28,12 @@ public class Main {
         // Task 4
         NumberManipulator numberManipulator = new NumberManipulator();      // создание объекта класса с методами incrementByOne и decrementByOne
         int number = 10;
-        System.out.println("Before increment: " + number);        // вывод числа в консоль перед вызовом метода
+        System.out.println("Before increment: " + number);                  // вывод числа в консоль перед вызовом метода
 
         int incrementedNumber = numberManipulator.incrementByOne(number);         // Вызывается метод incrementByOne() объекта numberManipulator, передавая ему текущее значение number++
         System.out.println("Number after increment: " + incrementedNumber);       // Вызывается метод incrementByOne() объекта numberManipulator, передавая ему текущее значение number++
 
-        System.out.println("Before decrement: " + number);        // Выводим текущее значение переменной number перед уменьшением
+        System.out.println("Before decrement: " + number);                  // Выводим текущее значение переменной number перед уменьшением
 
         int decrementedNumber = numberManipulator.decrementByOne(number);       // Вызывается метод incrementByOne() объекта numberManipulator, передавая ему текущее значение number--
         System.out.println("Number after decrement: " + decrementedNumber);      // вывод текстом + результат полученный при вызове метода
@@ -42,7 +42,7 @@ public class Main {
 
         
         // 4 Homework
-        Figure figure = new Figure(2.0, 3.0, 4.0);      // возвращаемые данные в метод calculateVolume
+        Figure figure = new Figure(2.0, 3.0, 4.0);        // возвращаемые данные в метод calculateVolume
         System.out.println("Calculating value: " +  figure.calculateVolume());    // Запуск метода и отображение результата с текстом
 
         Figure figure1 = new Figure(1.0, 2.0,3.0);
