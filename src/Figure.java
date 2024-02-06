@@ -8,7 +8,7 @@ public class Figure {     // 4 Homework 1 task
 
     }
 
-    public void Formula () {    //4 Homework, method for constructor A
+    public void Formula () {    //4 Homework, second method
         double calculation = 2 * (this.width * length + length * height + width * height);
         System.out.println("Area result = " + calculation);
 
