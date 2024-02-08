@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         /* Task 1
-         Git установлен git version 2.43.0.windows.1*/
+        git version 2.43.0.windows.1*/
 
         //    Task 2
         Car myNewCar = new Car();
@@ -19,31 +19,31 @@ public class Main {
 
         
         // Task 3
-        Calculator calculator = new Calculator();             // Создание объекта класса калькулятор
-        System.out.println(calculator.addition(5,8));         // Применение метода addition для сложения двух значений
-        System.out.println(calculator.isGreater(9,12));       // Применение метода isGreater для сравнение двух значений
+        Calculator calculator = new Calculator();            
+        System.out.println(calculator.addition(5,8));         
+        System.out.println(calculator.isGreater(9,12));      
 
 
         
         // Task 4
-        NumberManipulator numberManipulator = new NumberManipulator();      // создание объекта класса с методами incrementByOne и decrementByOne
+        NumberManipulator numberManipulator = new NumberManipulator();     
         int number = 10;
-        System.out.println("Before increment: " + number);                  // вывод числа в консоль перед вызовом метода
+        System.out.println("Before increment: " + number);                  
 
-        int incrementedNumber = numberManipulator.incrementByOne(number);         // Вызывается метод incrementByOne() объекта numberManipulator, передавая ему текущее значение number++
-        System.out.println("Number after increment: " + incrementedNumber);       // Вызывается метод incrementByOne() объекта numberManipulator, передавая ему текущее значение number++
+        int incrementedNumber = numberManipulator.incrementByOne(number);        
+        System.out.println("Number after increment: " + incrementedNumber);       
 
-        System.out.println("Before decrement: " + number);                  // Выводим текущее значение переменной number перед уменьшением
+        System.out.println("Before decrement: " + number);                 
 
-        int decrementedNumber = numberManipulator.decrementByOne(number);       // Вызывается метод incrementByOne() объекта numberManipulator, передавая ему текущее значение number--
-        System.out.println("Number after decrement: " + decrementedNumber);      // вывод текстом + результат полученный при вызове метода
+        int decrementedNumber = numberManipulator.decrementByOne(number);       
+        System.out.println("Number after decrement: " + decrementedNumber);      
 
 
 
         
         // 4 Homework
-        Figure figure = new Figure(2.0, 3.0, 4.0);        // возвращаемые данные в метод calculateVolume
-        System.out.println("Calculating value: " +  figure.calculateVolume());    // Запуск метода и отображение результата с текстом
+        Figure figure = new Figure(2.0, 3.0, 4.0);        
+        System.out.println("Calculating value: " +  figure.calculateVolume());    
 
         Figure figure1 = new Figure(1.0, 2.0,3.0);
         figure1.Formula();
