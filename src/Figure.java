@@ -14,7 +14,7 @@ public class Figure {     // 4 Homework 1 task
 
     }
 
-    public  Figure(double height, double width, double length) {   // подаём данные  на вход для объекта figure класса Figure
+    public  Figure(double height, double width, double length) {   
         this.height = height;
         this.width = width;
         this.length = length;
