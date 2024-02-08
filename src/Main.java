@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        /* Task 1
+        /* Homework 3, Task 1
         git version 2.43.0.windows.1*/
 
-        //    Task 2
+        //  Homework 3,  Task 2
         Car myNewCar = new Car();
 
         myNewCar.startEngine();
@@ -18,14 +18,14 @@ public class Main {
 
 
         
-        // Task 3
+        //  Homework 3,  Task 3
         Calculator calculator = new Calculator();            
         System.out.println(calculator.addition(5,8));         
         System.out.println(calculator.isGreater(9,12));      
 
 
         
-        // Task 4
+        // Homework 3, Task 4
         NumberManipulator numberManipulator = new NumberManipulator();     
         int number = 10;
         System.out.println("Before increment: " + number);                  
