@@ -44,9 +44,7 @@ public class Main {
         // 4 Homework
         Figure figure = new Figure(2.0, 3.0, 4.0);        
         System.out.println("Calculating value: " +  figure.calculateVolume());    
-
         Figure figure1 = new Figure(1.0, 2.0,3.0);
         figure1.Formula();
-
     }
 }

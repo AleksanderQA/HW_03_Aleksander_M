@@ -3,17 +3,17 @@ public class Figure {
     double height;
     double width;
     double length;
+
         // 4 Homework, 2 task,  A constructor
     public Figure() {   
-
     }
         //4 Homework, second method
     public void Formula () {    
         double calculation = 2 * (this.width * length + length * height + width * height);
         System.out.println("Area result = " + calculation);
-
     }
 
+        // Homework 4 and constructor for B
     public  Figure(double height, double width, double length) {   
         this.height = height;
         this.width = width;
@@ -22,7 +22,5 @@ public class Figure {
         // 4 Homework , method for constructor B
     public  double calculateVolume() { 
         return this.length * width * height;
-
     }
-
 }
