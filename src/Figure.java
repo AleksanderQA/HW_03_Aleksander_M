@@ -1,14 +1,14 @@
-public class Figure {     // 4 Homework 1 task
+public class Figure {     
 
     double height;
     double width;
     double length;
-
-    public Figure() {   // 4 Homework, 2 task,  A constructor
+        // 4 Homework, 2 task,  A constructor
+    public Figure() {   
 
     }
-
-    public void Formula () {    //4 Homework, second method
+        //4 Homework, second method
+    public void Formula () {    
         double calculation = 2 * (this.width * length + length * height + width * height);
         System.out.println("Area result = " + calculation);
 
@@ -19,10 +19,9 @@ public class Figure {     // 4 Homework 1 task
         this.width = width;
         this.length = length;
     }
-
-    public  double calculateVolume() { // 4 Homework , method for constructor B
+        // 4 Homework , method for constructor B
+    public  double calculateVolume() { 
         return this.length * width * height;
-
 
     }
 
